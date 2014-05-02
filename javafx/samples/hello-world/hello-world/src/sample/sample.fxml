@@ -1,0 +1,8 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button id="btnHello" text="Say 'Hello'" textAlignment="CENTER" onAction="#handleClickButtonAction">
+    </Button>
+</GridPane>
