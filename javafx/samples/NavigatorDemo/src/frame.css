@@ -9,11 +9,11 @@
 }
 
 #frame1 {
-    -fx-background-color: aliceblue;
+    -fx-background-color: darkorange;
 }
 
 #frame2 {
-    -fx-background-color: coral;
+    -fx-background-color: lightcoral;
 }
 
 .button {
