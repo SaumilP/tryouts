@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<order>
+  <orderID>123</orderID>
+  <customer>
+    <name>Saumil Patel</name>
+    <address>Planet called earth</address>
+  </customer>
+  <orderItem>
+    <product>IBM Super Computer</product>
+    <quantity>1</quantity>
+    <supplier>IBM</supplier>
+  </orderItem>
+</order>

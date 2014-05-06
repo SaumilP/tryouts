@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<Order>
+  <Customer>
+    <name/>
+    <address/>
+  </Customer>
+  <OrderItem>
+    <productName />
+    <quantity />
+    <supplierName />
+  </OrderItem>
+</Order>
