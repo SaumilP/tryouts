@@ -1,0 +1,13 @@
+#headerLabel {
+    -fx-background-color: steelblue;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+#tabHolder {
+    -fx-background-color: lightgray;
+}
+
+#pieChart, #barChart {
+    -fx-background-color: darkgrey;
+}

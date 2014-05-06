@@ -1,0 +1,8 @@
+messages:
+  welcome: blog service REST App!
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: saumil
+  password:
+  url: jdbc:mysql://localhost/test

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-stylesheet frame.css?>
+
+<StackPane fx:id="frame1"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="Frame1Controller">
+    <children>
+        <Button mnemonicParsing="false" onAction="#nextPane" text="Next Pane" />
+    </children>
+</StackPane>

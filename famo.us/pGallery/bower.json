@@ -1,0 +1,35 @@
+{
+  "name": "pgallery",
+  "description": "Project to get started with Famo.us.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/saumilpatel1@gmail.com/pgallery",
+  "authors": [{
+    "name": "SaumilP",
+    "url": "http://github.com/saumilpatel1@gmail.com/"
+  }],
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "famo.us"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "almond": "~0.2.9",
+    "famous-polyfills": "git+https://github.com/Famous/polyfills.git#0.1.1",
+    "famous": "git+https://github.com/Famous/famous.git#flat0.1.1"
+  },
+  "scripts": {
+    "postinstall": "grunt bower"
+  }
+}

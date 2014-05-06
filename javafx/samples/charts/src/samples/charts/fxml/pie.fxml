@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="samples.charts.Controllers.PieController">
+    <children>
+        <TabPane layoutX="8.0" layoutY="8.0" prefHeight="392.0" prefWidth="591.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Pie Chart">
+                    <content>
+                        <AnchorPane fx:id="pieChartAnchor" minHeight="0.0" minWidth="0.0" prefWidth="591.0">
+                            <children>
+                                <PieChart layoutX="-4.0"
+                                          prefHeight="365.0"
+                                          prefWidth="591.0"
+                                          title="Food Consumption"
+                                          animated="true"
+                                          fx:id="pieChart"
+                                          legendSide="BOTTOM"
+                                          labelLineLength="10"
+                                          legendVisible="true" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</Pane>

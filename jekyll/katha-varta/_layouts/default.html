@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale-1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>{{ page.title }}</title>
+        <link type="image/x-icon" rel="icon" href="favicon.ico"></link>
+
+        <!-- syntax highlighting CSS -->
+        <!--<link rel="stylesheet" href="/css/syntax.css">
+        <!-- Custom CSS -->
+        <!--<link rel="stylesheet" href="/css/main.css">
+        -->
+
+        <!-- Bottstrap CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font/font-awsome.css" rel="stylesheet">
+
+        <!-- jQuery & Bootstrap JS -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"></button>
+              <a class="navbar-brand" hfre="#">
+                <h3>{{ site.name }}</h3>
+              </a>
+            </div>
+
+            <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="#posts">Posts</a>
+                </li>
+                <li class="">
+                  <a href="#about">About Me</a>
+                </li>
+                <li class="">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- End of Navigation Bar -->
+
+        <!-- Posts -->
+        <!-- End of Posts -->
+
+        <!-- About Section -->
+        <section id="about" class="cbp">
+        </section>
+        <!-- End of About Section -->
+
+        <!-- Contact Section -->
+        <!-- End of Contact Section -->
+
+        <!-- Default Jekyll Layout -->
+        <div class="site">
+          <!-- <div class="header">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <a class="extra" href="/">home</a>
+          </div> -->
+
+          {{ content }}
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Saumil Patel<br />
+                Twitter<br />
+                Contact
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/SaumilP">github.com/SaumilP</a><br />
+                <a href="https://twitter.com/SaumilP10">twitter.com/SaumilP10</a><br />
+                <a href="mailto:saumilpatel1@gmail.com">saumilpatel1@gmail.com</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of Default Jekyll Layout -->
+    </body>
+</html>

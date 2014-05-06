@@ -1,0 +1,30 @@
+# This config file has been changed to set global variables
+permalink: /:categories/:year/:month/:day/:title
+
+exclude: ["README.md", "changelog.md"]
+pygments: true
+
+markdown: redcarpet
+
+title: My First Blog site
+tagline: Mostly tech stuff =)
+name: Katha Varta
+author:
+  name: Saumil Patel
+  email: saumilpatel1@gmail.com
+  github: SaumilP
+  twitter: SaumilP10
+  feedburner: feedname
+
+production_url: http://localhost:4000
+
+# All other variables used in the site pages
+KV :
+  version: 0.0.1
+  BASE_PATH: false
+  ASSET_PATH: false
+  archive_path: /archive.html
+  categories_path: /categories.html
+  tags_path: /tags.html
+  atom_path: feed/atom.xml
+  rss_path: feed/rss.xml

@@ -1,0 +1,22 @@
+#headerLabel {
+    -fx-background-color: steelblue;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+#frameHolder {
+    -fx-background-color: lightgrey;
+}
+
+#frame1 {
+    -fx-background-color: darkorange;
+}
+
+#frame2 {
+    -fx-background-color: lightcoral;
+}
+
+.button {
+    -fx-base: lightblue;
+    -fx-font-size: 20px;
+}
