@@ -6,12 +6,12 @@ if ( arguments.length === 0 ){
 
 var inputDir = arguments[0], outputDir = arguments[1];
 if ( undefined === inputDir ) {
-	inputDir = "./inputDir";
+	inputDir = "./input";
 	print("Reading from ${inputDir}");
 }
 
 if ( undefined === outputDir ) {
-	outputDir = "./outputDir";
+	outputDir = "./output";
 	print("Writing to ${outputDir}");
 }
 
@@ -60,7 +60,7 @@ function generate() {
 */
 function readFile(file) {
 	print("Reading ${file}");
-	return String( new StringType(Files.readAllBytes( Paths.get("${inputDir}/${file}"), "UTF-8") );
+	return String( new StringType(Files.readAllBytes( Paths.get("${inputDir}/${file}") ), "UTF-8") );
 }
 
 /**
@@ -97,5 +97,5 @@ function write( content, file){
 		print("Content Type: " + typeof content);
 		print("About to write ${content} to ${outputFile}");
 	}
-	Files.write( Paths.get(output), new StringType(content).bytes );
+	Files.write( Paths.get(outputFile), new StringType(content).bytes );
 }
