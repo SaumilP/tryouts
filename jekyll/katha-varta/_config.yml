@@ -2,7 +2,7 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: ["README.md", "changelog.md"]
-pygments: true
+highlighter: pygments
 
 markdown: redcarpet
 
@@ -19,7 +19,7 @@ author:
 production_url: http://localhost:4000
 
 # All other variables used in the site pages
-KV :
+JB :
   version: 0.0.1
   BASE_PATH: false
   ASSET_PATH: false
@@ -28,3 +28,8 @@ KV :
   tags_path: /tags.html
   atom_path: feed/atom.xml
   rss_path: feed/rss.xml
+
+comments:
+  provider: disqus
+  disqus:
+    short_name: saumilp

@@ -1,0 +1,8 @@
+{% if site.safe and site.KV.sharing.provider and page.KV.sharing != false %}
+
+{% case site.KV.sharing.provider %}
+{% when "custom" %}
+  {% include custom/sharing %}
+{% endcase %}
+
+{% endif %}
