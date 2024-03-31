@@ -1,0 +1,6 @@
+[submodule "rust/rust-by-examples"]
+	path = rust/rust-by-examples
+	url = https://github.com/SaumilP/rust-examples
+[submodule "rust/mastodon-toot-client"]
+	path = rust/mastodon-toot-client
+	url = https://github.com/SaumilP/mastodon-toot-client
