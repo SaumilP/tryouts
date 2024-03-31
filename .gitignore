@@ -1,0 +1,6 @@
+*.lib
+target/
+build/
+debug/
+Cargo.lock
+.DS_Store

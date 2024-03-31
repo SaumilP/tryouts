@@ -1,0 +1,22 @@
+[package]
+name = "xmas-tree"
+version = "0.1.0"
+edition = "2021"
+authors = ["Saumil Patel <saumilp@noemail.com>"]
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
+
+[profile.release-lto]
+inherits = "release"
+lto = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.23"
+regex = "1.10.2"
+systemstat = "0.2.3"
